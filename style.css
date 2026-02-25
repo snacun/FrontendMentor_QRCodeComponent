@@ -6,7 +6,7 @@
 
 --ff-regular: "Outfit", sans-serif;
 --fs-regular: 15px;
---fs-headline:22px;
+--fs-headline:20px;
 --fw-regular:400;
 --fw-bold:700;
 
@@ -33,14 +33,15 @@ body{
     flex-direction: column;
     justify-content:center;
     align-items:center;
-    height:100vh;
+    min-height:100vh;
+    
 }
 
 .mainCard{
     padding:16px;
     padding-bottom:40px;
-    margin:auto;
     height:499px;
+    margin:auto;
     width:320px;
     display:flex;
     flex-direction:column;
@@ -78,7 +79,8 @@ p{
 
 .attribution { 
     font-size: 11px; text-align: center; 
-    margin-top: auto; 
+   
+      margin-top: auto; 
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
@@ -87,5 +89,5 @@ p{
 @media (max-width: 375px){
     .mainCard{
         max-width:90vw;
-    }
+        }  
 }
