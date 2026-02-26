@@ -42,7 +42,7 @@ body{
     padding-bottom:40px;
     margin:auto;
     width:320px;
-    max-height:50vh;
+    max-height:60vh;
     display:flex;
     flex-direction:column;
     background-color:var(--clr-white);
